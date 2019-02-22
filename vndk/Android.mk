@@ -34,6 +34,7 @@ EXTRA_VENDOR_LIBRARIES := \
     android.hardware.configstore-utils \
     android.hardware.ir@1.0 \
     android.hardware.vibrator@1.0 \
+    android.hardware.gatekeeper@1.0 \
     libhardware_legacy \
     libbinder \
     libui \
