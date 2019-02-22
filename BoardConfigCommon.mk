@@ -130,3 +130,5 @@ BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
 
 # Shipping API level (for CTS backward compatibility)
 PRODUCT_SHIPPING_API_LEVEL := 19
+# Properties
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true

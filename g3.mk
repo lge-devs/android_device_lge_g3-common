@@ -50,8 +50,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
-# System properties
--include $(LOCAL_PATH)/system_prop.mk
+# Properties
+include $(LOCAL_PATH)/vendor_prop.mk
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
