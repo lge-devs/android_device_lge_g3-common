@@ -90,6 +90,10 @@ USE_OPENGL_RENDERER := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(LOCAL_PATH)/config.fs
 
+# GPS HAL lives here
+TARGET_GPS_HAL_PATH         := $(LOCAL_PATH)/gps
+TARGET_PROVIDES_GPS_LOC_API := true
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/configs/manifest.xml
 DEVICE_MATRIX_FILE := $(LOCAL_PATH)/configs/compatibility_matrix.xml
