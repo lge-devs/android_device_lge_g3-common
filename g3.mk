@@ -275,10 +275,20 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     vndk-sp
+
+# WCNSS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
-    hostapd \
+    libcld80211 \
+    libqsap_sdk \
+    libQWiFiSoftApCfg \
     libwpa_client \
+    wificond \
+    hostapd \
+    wificond \
     wpa_supplicant \
     wpa_supplicant.conf
