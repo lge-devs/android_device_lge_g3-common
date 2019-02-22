@@ -53,5 +53,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.qualcomm.sns.libsensor1=e
 
 # Vendor security patch level
-ro.lineage.build.vendor_security_patch=2017-06-01
-ro.vendor.build.security_patch=2017-06-01
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2017-06-01 \
+    ro.vendor.build.security_patch=2017-06-01
