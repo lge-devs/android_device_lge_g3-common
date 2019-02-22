@@ -39,6 +39,7 @@ LOCAL_C_INCLUDES := \
     frameworks/native/include/media/openmax \
     frameworks/native/libs/nativebase/include \
     frameworks/native/libs/nativewindow/include \
+    frameworks/native/headers/media_plugin \
     $(call project-path-for,qcom-display)/libgralloc \
     $(call project-path-for,qcom-display)/libqdutils \
     $(call project-path-for,qcom-display)/libqservice \
